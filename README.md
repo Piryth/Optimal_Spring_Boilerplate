@@ -17,4 +17,9 @@ Contains all the configuration files :
 + Authentication filters with JWT authentication
 + Security configuration
 
-###
+### Authentication
+Contains all the authentication services and controllers. Authentication request and response DTOs.
+Register and Login endpoins are here !
+
+### Image
+Contains a simple multipart image handler.
