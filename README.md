@@ -7,8 +7,14 @@ This boilerplate enable multi-user application with secured authentication.
 
 ## Packages 
 
-## Appuser
+### Appuser
 Contains everything about your user, with credentials. The user entity implements **UserDetails** so that it can be used in Spring Security for account activation.
 
-## Config
-Contains all the configuration files, 
+### Config
+Contains all the configuration files :
++ Bcrypt encryption bean configuration
++ JWT token generation and claims extration
++ Authentication filters with JWT authentication
++ Security configuration
+
+###
